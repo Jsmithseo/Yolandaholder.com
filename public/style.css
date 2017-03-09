@@ -1,0 +1,563 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+    .container{
+     /* margin: 5px 75px 75px;*/
+      /*padding:10px 5px 5px;*/
+      /*border: 1px solid #000;*/
+
+   }
+
+   .logo{
+    /*padding:20px 20px 20px;*/
+   }
+
+    .main-nav {
+      display: -webkit-flex;
+      display: flex;
+      list-style-type:none;
+      border-bottom: 1px solid #f0f4f6;
+      justify-content: space-between;
+    }
+
+    .main-nav li:first-child {
+      margin-right: auto;
+      list-style-type:none;
+    }
+
+    .main-nav a {
+      border-radius: 5px;
+      color: ;
+      display: block;
+      text-decoration: none;
+    }
+
+
+
+    .nav-links:nth-child(2){
+        display: flex;
+        flex: 8;
+    }
+
+
+    .main-nav li a{
+    margin-right: auto;
+    list-style-type: none;
+    margin-right: 25px;
+    color:#939393;
+}
+
+
+
+    .main-nav .logo {
+     /* background: #4584b1;*/
+    }
+  /*  ul:nth-child(1){
+        display: flex;
+    }
+    ul:nth-child(2){
+        display: flex;
+    }*/
+
+
+    .main-nav .logo {
+    margin-left: 63px;
+}
+    .social-media-icons{
+        height: 40px;
+         display: inline-block;
+         flex: 4;
+    }
+    .nav-links{
+        display: inline-flex;
+    }
+
+    .countdown-timer{
+        text-align: center;
+        display: flex-center;
+
+    }
+
+    .clock-time{
+        color:#939393;
+        font-family: avenir;
+    }
+
+    .nav-links{
+
+    }
+
+    .header-logo{
+        flex:3;
+
+        }
+
+
+    .social-media-icons{
+        flex:1;
+
+    }
+
+
+
+    div.clock {
+      position: relative;
+      display: block;
+      margin-top: 10px;
+      font-family: monospace;
+      font-size: 20px;
+      color: #939393;
+
+
+    }
+
+
+.banner{
+    width: 100%;
+
+}
+
+.banner-image{
+    width:1120px;
+    width: 100%;
+      width: 105%;
+    margin-left: -21px;
+
+}
+
+.racePromo{
+    display: flex;
+}
+
+.CTA{
+    background-color:#DF37A8;
+    height:300px;
+    width:300px;
+    margin: 14px 57px;
+    width:100%;
+    box-shadow: 2px 2px 2px #888888;
+
+}
+
+.tagline{
+    margin: 5px 5px;
+    padding: 5px 15px;
+    font-size:35px;
+    color:#ffffff;
+    font-family: avenir;
+    font-weight:500;
+    display: flex;
+}
+
+.tagline-text{
+    margin: 5px 5px;
+    padding: 5px 15px;
+    font-size:20px;
+    color:#ffffff;
+    font-family: avenir;
+    font-weight:200;
+    display: flex;
+}
+
+
+
+.donate-links{
+    display: flex;
+    padding:25px;
+
+}
+
+
+.ten{
+    border: 1px solid #fff;
+    flex:1;
+}
+
+.twentyfive{
+    border: 1px solid #fff;
+    flex:1;
+}
+
+.fifty{
+    border: 1px solid #fff;
+    flex:1;
+
+}
+
+.hundred{
+    border: 1px solid #fff;
+     flex:1;
+
+}
+
+
+.ten, .twentyfive,.fifty,.hundred{
+
+    margin-right:10px;
+
+}
+
+.number{
+    padding:1px 1px 1px 1px;
+    color:#fff;
+    font-family:avenir;
+}
+
+input{
+padding: 0px 5px ;
+margin:0px 44px 0px 36px;
+height:40px;
+display: flex-start;
+width:80%;
+font-size:20px;
+}
+
+.button{
+     background-color:#37DF6E;
+     margin: 0px 10px 10px;
+      margin-top:-11px;
+      box-shadow: 2px 
+
+
+}
+button{
+    
+    margin:0px 10px 10px;
+    background-color:#37DF6E;
+    height: 42px;
+    width: 10%;
+    font-size:20px;
+    color:#FFF5EE;
+
+
+}
+
+.button-text{
+    color:#FFF5EE;
+    font-family: avenir;
+    padding:5px;
+    line-height: 2.2;
+    font-size:20px;
+
+}
+p{
+    width:75%;
+    line-height:2em;
+    text-align: left;
+    flex:1;
+    font-size:18px;
+    font-family:avenir;
+}
+
+h1{
+
+    text-align: left;
+}
+
+.newsletter{
+    height: 100px;
+    border-top: 1px solid #f0f4f6;
+    border-bottom: 1px solid #f0f4f6;
+    padding: 0px 0px 40px 18px;
+    display: flex-start;
+
+}
+
+.newsletter-copy{
+    padding:15px 38px;
+    font-family: avenir;
+}
+
+
+
+.hashtag{
+    font-family:avenir;
+    font-weight: 200;
+    font-size:30px;
+    margin: 10px auto;
+    letter-spacing: 0.2em;
+
+}
+
+.hashtagblock{
+    display:flex;
+    margin: 20px 0px 50px;
+}
+
+.CTA-Blocks{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.book, .events,.records{
+     height:250px;
+    width:200px;
+    background-color: #333;
+    margin: 0px 40px 0px 40px;
+    padding: 0px ;
+}
+
+.titles{
+    display: flex;
+    justify-content: space-between;
+    margin: 21px 75px 11px 64px;
+    border-bottom: 1px solid #f0f4f6;
+    border-top: 1px solid #f0f4f6;
+
+}
+
+.blog,.video{
+    font-family:avenir;
+    font-weight:100;
+    font-size:40px;
+}
+.comboblocks{
+    display: flex;
+    padding: 0px 0px 10px;
+    margin-left: 68px;
+    margin-right: 64px;
+}
+
+.blog-entry-1{
+    flex:5;
+}
+.video-1{
+    flex:1;
+}
+
+
+.footer{
+    border-top: 1px solid #f0f4f6;
+    border-bottom: 1px solid #f0f4f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px 25px 25px;
+
+}
+ul{
+    text-align: center;
+}
+li{
+    list-style: none;
+    line-height:2;
+     font-family:avenir;
+}
+ul li:nth-child(1){
+    font-weight: bold;
+    color:#DF37A8;
+
+}
+.footer-logo img{
+    height: 73px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+
+
+
+
+
+
+@media(max-width:1165px){
+    .main-nav li a{
+        font-size :12px;
+    }
+}
+
+
+@media(max-width: 990px){
+    .main-nav{
+        display:none;
+
+    }
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
